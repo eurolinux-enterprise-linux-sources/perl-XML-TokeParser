@@ -1,6 +1,6 @@
 Name:           perl-XML-TokeParser
 Version:        0.05
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        Simplified interface to XML::Parser
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -57,6 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.05-12
+- Mass rebuild 2013-12-27
+
 * Fri Aug 17 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.05-11
 - Specify all dependencies.
 
